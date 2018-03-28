@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+		
+}
+
+
+body {
+	background: linear-gradient(to top, #71B280, #134E5E);
+    background-attachment: fixed;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+	margin: 0;
+
+}
+.text-center {
+    text-align: center;
+}
+.about {
+    margin-bottom: 80px;
+}
+.profile-pic {
+    box-shadow: 0px 4px 6px 2px lightgreen;
+    border-radius: 50%;
+}
+.repo-row, .row-footer {
+    padding: 65px 10px;
+}
+.repo-row:nth-child(odd) {
+    background-color: lightgrey;
+    -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+}
+.technologies {
+    margin-top: 15px;
+    font-size: 3em;
+    flex-wrap: wrap;
+}
+h2 a {
+	font-size: 30px;
+	
+}
+p {
+    color: #4A4E69;
+    
+}
